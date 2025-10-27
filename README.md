@@ -1,4 +1,15 @@
-<!DOCTYPE html>
+---
+---
+/* Hide site title / first H1 rendered from README or theme header */
+.markdown-body > h1:first-child,
+.repo-title,
+.site-title,
+.site-header .site-title,
+.header .site-title,
+.header h1,
+.repository-content h1 {
+  display: none !important;
+}
 <html lang="en">
 <head>
     <meta charset="UTF-8">
