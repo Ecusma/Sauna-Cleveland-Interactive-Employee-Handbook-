@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -73,7 +74,7 @@
             </div>
             <div>
                 <h1 class="text-4xl font-extrabold tracking-tight">
-                    <span class="text-dragon-pink">Sauna</span> <span class="text-loyal-blue">Cleveland</span>
+                    <span class="text-dragon-pink">Sauna</span> <span class="text-dragon-pink">Cleveland</span>
                 </h1>
                 <p class="text-lg text-gray-600 mt-1">Your interactive guide to operations, safety, and service.</p>
             </div>
@@ -85,13 +86,13 @@
                     Core Policies
                 </button>
                 <button role="tab" aria-selected="false" class="tab py-3 px-5 rounded-xl font-bold transition-all duration-300" data-target="operations">
-                    Operations & Logistics
+                    Operations
                 </button>
                 <button role="tab" aria-selected="false" class="tab py-3 px-5 rounded-xl font-bold transition-all duration-300" data-target="safety">
-                    Client Safety & Service
+                    Client Safety
                 </button>
                 <button role="tab" aria-selected="false" class="tab py-3 px-5 rounded-xl font-bold transition-all duration-300" data-target="maintenance">
-                    Maintenance & Hygiene
+                    Maintenance
                 </button>
                 <button role="tab" aria-selected="false" class="tab py-3 px-5 rounded-xl font-bold transition-all duration-300" data-target="emergencies">
                     🚨 Emergencies
@@ -152,7 +153,7 @@
             
             <section id="operations" role="tabpanel" class="content-section bg-white p-6 rounded-xl shadow-lg space-y-6 hidden">
                 <header>
-                    <h2 class="text-3xl font-bold text-dragon-pink">Operations & Logistics</h2>
+                    <h2 class="text-3xl font-bold text-dragon-pink">Operations</h2>
                    
                 </header>
 
@@ -217,7 +218,7 @@
             
             <section id="safety" role="tabpanel" class="content-section bg-white p-6 rounded-xl shadow-lg space-y-6 hidden">
                 <header>
-                    <h2 class="text-3xl font-bold text-dragon-pink">Client Safety & Service</h2>
+                    <h2 class="text-3xl font-bold text-dragon-pink">Client Safety</h2>
                     
                 </header>
 
@@ -226,7 +227,7 @@
                         <h3 class="text-2xl font-semibold text-loyal-blue">Wellness Protocols</h3>
                         <div class="p-4 bg-mint-condition rounded-lg">
                             <h4 class="font-bold">Temperature and Ventilation</h4>
-                            <p class="text-sm">Monitor and maintain sauna temperature within the recommended range (e.g., 160°F–190°F). Ensure proper ventilation is maintained.</p>
+                            <p class="text-sm">Monitor and maintain sauna temperature within the recommended range (e.g., 160°F to 190°F). Ensure proper ventilation is maintained.</p>
                         </div>
                         <div class="p-4 bg-security-red/10 border border-security-red/30 rounded-lg">
                             <h4 class="font-bold text-security-red">Mandatory Client Safety Briefing</h4>
@@ -260,7 +261,7 @@
             
             <section id="maintenance" role="tabpanel" class="content-section bg-white p-6 rounded-xl shadow-lg space-y-6 hidden">
                 <header>
-                    <h2 class="text-3xl font-bold text-dragon-pink">Maintenance & Hygiene</h2>
+                    <h2 class="text-3xl font-bold text-dragon-pink">Maintenance</h2>
                     
                 </header>
 
@@ -399,4 +400,3 @@
     </script>
 </body>
 </html>
-
