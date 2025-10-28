@@ -1,5 +1,6 @@
 ---
----
+--<style>
+<
 /* Hide site title / first H1 rendered from README or theme header */
 .markdown-body > h1:first-child,
 .repo-title,
@@ -10,6 +11,7 @@
 .repository-content h1 {
   display: none !important;
 }
+</style>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
