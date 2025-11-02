@@ -1,0 +1,66 @@
+/* styles.css  — lives in the same directory as index.html */
+
+/* Brand tokens (kept in sync with your Tailwind config) */
+:root{
+  --loyal-blue:   #1f3548;
+  --sky-fall:     #c6dff7;
+  --dragon-pink:  #FF0A8E;
+  --security-red: #fe0000;
+  --mint-condition:#D3e5d5;
+}
+
+/* Baseline / fallbacks in case Tailwind fails to load */
+html, body {
+  font-family: "Sulphur Point", Poppins, sans-serif;
+  color: var(--loyal-blue);
+  background-color: var(--sky-fall);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Images behave nicely in flex/rounded containers */
+img { display:block; max-width:100%; height:auto; }
+
+/* Tabs */
+.tab{
+  background: white;
+  color: var(--loyal-blue);
+  border: 2px solid transparent;
+  box-shadow: 0 1px 2px rgba(0,0,0,.05), 0 1px 1px rgba(0,0,0,.04);
+  transform: translateY(0);
+}
+.tab:hover{
+  border-color: rgba(31,53,72,.2);
+  transform: translateY(-1px);
+}
+.tab.active{
+  background: var(--dragon-pink);
+  color: #fff;
+  border-color: var(--dragon-pink);
+  box-shadow: 0 6px 16px rgba(255,10,142,.25);
+}
+
+/* Keyboard focus (for a11y) */
+[role="tab"]:focus-visible,
+button:focus-visible,
+a:focus-visible{
+  outline: 3px solid var(--dragon-pink);
+  outline-offset: 2px;
+  border-radius: .75rem;
+}
+
+/* Panels */
+.content-section{
+  border: 1px solid rgba(31,53,72,.06);
+}
+
+/* Utility: visually hide via the same class your JS toggles */
+.hidden{ display:none !important; }
+
+/* Accent callouts that mirror your Tailwind color choices (optional) */
+.callout-danger{
+  background: color-mix(in srgb, var(--security-red) 10%, white);
+  border-left: 4px solid var(--security-red);
+  padding: 1rem 1.25rem;
+  border-radius: .75rem  .75rem  .75rem  .25rem;
+}
